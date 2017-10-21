@@ -1,0 +1,43 @@
+﻿Project RISHI Village Map
+Written by: Stefanie Tonnu
+Spring 2017 – UCSD ENG 100D
+
+
+Feature:
+Project RISHI Map (Web Page)
+
+
+Feature Description:
+1. Purpose:
+To display the project work done by UC Berkeley Project RISHI in areas of rural India. The information is presented in the form of an interactive map interface, which will be hosted on a website. The user should be able to learn more about Project RISHI as well as the various projects that they have done by looking at areas on a map.
+
+
+1. Functionalities:
+The user is able to interact with the map by clicking on a particular “Ward” on the left side of the map. Upon choosing a ward, the map will zoom into that respective ward, where the user can then filter through “Project categories” on the right side of the map. Selecting one of the categories will filter the other categories out, and the user can then see only the icons on the map that represent the one that they selected. Most of the features are supported by existing Google Maps API.
+
+
+1. Use cases:
+* Users can choose a specific ward that they wish to learn more about.
+* Users can choose a specific project category within the ward that they wish to learn more about.
+* Users can navigate around the map once it has zoomed in.
+* Users can reset the view of the map.
+
+
+Build Summary:
+Relevant Files:
+* map.html
+This file contains the HTML code that renders the map onto a web page. This involves the interactive pop-up window that appears upon entering the map, the side menus on the left and right, as well as the main map.
+
+
+* map.js
+This file contains the bulk of the code involved with the features and functionality of the map. The JavaScript methods within this file handle functions involved with displaying the different wards on the map, clicking on a menu item, zooming in, and the Google Maps API.
+
+
+Continuity Ideas:
+* Add a street view of the different areas where the projects are located. This could be done using a “photosphere.”
+* Add a crowdsourcing feature that allows users to add their own markers and data to the map.
+* Add a search feature.
+* Input the actual data and images into each of the pins on the map.
+
+
+* Refactor the code so that the map.js file isn’t so long. (e.g. Figuring out how to move the wards into a different file so that the values aren’t hardcoded in.)
